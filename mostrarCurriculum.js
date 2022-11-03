@@ -13,6 +13,7 @@ function MostrarCurriculum(array) {
   if(array.length === 0) {
     lista.innerHTML = '';
   }
+  document.getElementById('container').style.display = 'none';
   array.forEach(persona => {
     let div = document.createElement('div');
     div.className = 'contents';

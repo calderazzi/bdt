@@ -3,15 +3,15 @@ body {
 }
 /* HEAD */
 .titulo {
-  margin-top: 80px;
+  margin-top: 60px;
   text-align: right;
   margin-right: 10px;
   margin-bottom: 0;
 }
 .tit {
   text-align: center;
-  font-size: 30px;
-  margin-top: 120px;
+  font-size: 23px;
+  margin-top: 67px;
 }
 .linea1 {
   width: auto;
@@ -31,39 +31,39 @@ body {
 .b, .d, .t {
   position: absolute;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 300px;
-  margin-top: 80px;
-  margin-left: 100px;
+  font-size: 230px;
+  margin-top: 60px;
+  margin-left: 90px;
 }
 .b {
   color: rgb(31, 198, 151);
 }
 .d {
-  margin-left: 230px;
+  margin-left: 200px;
   color: rgb(31, 198, 151);
 }
 .t {
-  margin-left: 378px;
+  margin-left: 315px;
   color: rgb(110, 108, 108);
 }
 .bb, .dd, .tt {
-  top: -10px;
-  font-size: 180px;
+  top: -33px;
+  font-size: 150px;
   margin-top: 0;
 }
 .dd {
-  margin-left: 180px;
+  margin-left: 160px;
 }
 .tt {
-  margin-left: 270px;
+  margin-left: 235px;
 }
 
 /* LISTA */
 ul {
   position: absolute;
-  margin-left: 600px;
-  margin-top: 150px;
-  font-size: 40px;
+  margin-left: 500px;
+  margin-top: 120px;
+  font-size: 35px;
 }
 li {
   color: rgb(31, 198, 151);
@@ -78,8 +78,8 @@ span {
 /* LOGO */
 .container {
   position: absolute;
-  width: 420px;
-  height: 420px;
+  width: 300px;
+  height: 300px;
   overflow: hidden;
   bottom: 0;
   right: 0;
@@ -88,8 +88,8 @@ span {
   position: absolute;
   bottom: -80px;
   right: -80px;
-  width: 500px;
-  height: 500px;
+  width: 380px;
+  height: 380px;
   border-radius: 50%;
   background-color: rgb(31, 198, 151);
   overflow: hidden;
@@ -97,36 +97,37 @@ span {
 .mordida {
   position: absolute;
   background-color: white;
-  width: 280px;
-  height: 280px;
+  width: 230px;
+  height: 230px;
   border-radius: 50%;
   bottom: 10px;
-  right: 350px;
+  right: 250px;
 }
 .cont {
-  width: 460px;
-  height: 460px;
+  width: 300px;
+  height: 300px;
 }
 .cir {
-  bottom: -40px;
-  right: -40px;
+  bottom: -80px;
+  right: -80px;
 }
 
 /* BOTONES */
 .botones {
   position: absolute;
-  margin-top: 500px;
-  margin-left: 40%;
+  margin-top: 400px;
+  margin-left: 20%;
 }
 .btn {
   margin: 30px;
-  width: 150px;
-  height: 50px;
+  margin-left: 80px;
+  width: 130px;
+  height: 40px;
   cursor: pointer;
   border-radius: 10px;
   background-color: rgb(31, 198, 151);
   color: white;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: bolder;
   box-shadow: 5px 5px 10px black;
 }
@@ -142,43 +143,45 @@ span {
 
 /* FORMULARIO */
 p {
-  font-size: 20px;
+  font-size: 14px;
 }
 form {
-  margin-left: 100px;
+  margin-left: 70px;
   background-color: rgb(189, 187, 187);
-  width: 600px;
-  padding: 5px 30px;
-  margin-top: 20px;
+  width: 500px;
+  padding: 1px 30px;
+  margin-top: 5px;
   border-radius: 20px;
 }
 input, textarea{
-  font-size: 20px;
+  font-size: 14px;
   border-radius: 10px;
 }
 .subir {
   background-color: rgb(31, 198, 151);
   color: white;
-}
-.input {
-  margin: 30px;
-  padding: 10px;
+  margin-left: 380px;
 }
 
 /* PERSONA BUSCADA */
 .contents {
-  margin: 15px;
-  background-color: gray;
+  display: inline-block;
+  margin: 10px;
+  background-color: rgb(167, 166, 166);
   border-radius: 15px;
-  width: 330px;
-  color: white;
-  padding: 15px;
+  width: 200px;
+  color: black;
+  padding: 5px;
   text-align: center;
-  font-size: 22px;
+  font-size: 15px;
 }
 .foto {
   padding: 10px;
-  width: 130px;
+  width: 90px;
+}
+.input {
+  margin: 10px 40px;
+  padding: 10px;
 }
 
 /* RESPONSIVE */
