@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BDT</title>
+</head>
+<body>
+  <header>
+    <div class="b bb">b</div><div class="d dd">d</div><div class="t tt">t</div>
+    <h2 class="tit">Carga de curriculum</h2>
+    <a href="index.html"><button type="button" class="btn boton volver">Volver</button></a>
+    <div class="linea1 l1"></div>
+    <div class="linea2"></div>
+  </header>
+  <form>    
+    <p>
+      <label for="name">Nombre:</label>
+      <input type="text" name="name" placeholder="Juan" required>
+    </p>
+    <p>
+      <label for="apellido">Apellido:</label>
+      <input type="text" name="apellido" placeholder="Perez" required>
+    </p>
+    <p>
+      <label for="edad">Edad:</label>
+      <input type="number" name="edad" placeholder="35" required>
+    </p>
+    <p>
+      <label for="phone">Teléfono:</label>
+      <input type="tel" name="phone" id="phone" placeholder="11 - 123456789" required>
+    </p>
+    <p>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="tuMail@mail.com">
+    </p>
+    <p>
+      <label for="experiencia">Experiencia:</label>
+      <textarea name="textarea" cols="45" rows="4">Experiencia</textarea>
+    </p>
+    <p>
+        Educación:
+        <p><label> <input type="radio" name="educacion" value="primaria" > Primaria</label></p>
+        <p><label> <input type="radio" name="educacion" value="secundaria"> Secundaria</label></p>
+        <p><label> <input type="radio" name="educacion" value="terciaria" > Terciaria</label></p>
+    </p>
+    <p>
+      <label for="disponibilidad">Disponibilidad:</label>
+      <input type="text" name="disponibilidad" placeholder="Inmediata" required>
+    </p>
+    <p>
+      Foto: <input type="file" name="archivosubido">
+    </p>
+    <input class="subir" type="submit" value="Subir curriculum">
+  </form>
+
+  <div class="container cont">
+    <div class="circulo cir">
+      <div class="mordida mor"></div>
+    </div>
+  </div>  
+</body>
+</html>

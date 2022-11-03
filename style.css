@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+}
+/* HEAD */
+.titulo {
+  margin-top: 80px;
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+.tit {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 120px;
+}
+.linea1 {
+  width: auto;
+  height: 7px;
+  background-color: black;
+}
+.linea2 {
+  width: auto;
+  height: 7px;
+  background-color: rgb(31, 198, 151);
+}
+.l1 {
+  margin-top: 30px;
+}
+
+/* BDT */
+.b, .d, .t {
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 300px;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.b {
+  color: rgb(31, 198, 151);
+}
+.d {
+  margin-left: 230px;
+  color: rgb(31, 198, 151);
+}
+.t {
+  margin-left: 378px;
+  color: rgb(110, 108, 108);
+}
+.bb, .dd, .tt {
+  top: -10px;
+  font-size: 180px;
+  margin-top: 0;
+}
+.dd {
+  margin-left: 180px;
+}
+.tt {
+  margin-left: 270px;
+}
+
+/* LISTA */
+ul {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 150px;
+  font-size: 40px;
+}
+li {
+  color: rgb(31, 198, 151);
+}
+span {
+  color: black;
+}
+.gris {
+  color: gray;
+}
+
+/* LOGO */
+.container {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  overflow: hidden;
+  bottom: 0;
+  right: 0;
+}
+.circulo {
+  position: absolute;
+  bottom: -80px;
+  right: -80px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: rgb(31, 198, 151);
+  overflow: hidden;
+}
+.mordida {
+  position: absolute;
+  background-color: white;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  bottom: 10px;
+  right: 350px;
+}
+.cont {
+  width: 460px;
+  height: 460px;
+}
+.cir {
+  bottom: -40px;
+  right: -40px;
+}
+
+/* BOTONES */
+.botones {
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 40%;
+}
+.btn {
+  margin: 30px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(31, 198, 151);
+  color: white;
+  font-size: 19px;
+  font-weight: bolder;
+  box-shadow: 5px 5px 10px black;
+}
+.btn:hover {
+  border: 3px solid black;
+  box-shadow: 7px 7px 10px black;
+}
+.boton {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+}
+
+/* FORMULARIO */
+p {
+  font-size: 20px;
+}
+form {
+  margin-left: 100px;
+  background-color: rgb(189, 187, 187);
+  width: 600px;
+  padding: 5px 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+input, textarea{
+  font-size: 20px;
+  border-radius: 10px;
+}
+.subir {
+  background-color: rgb(31, 198, 151);
+  color: white;
+}
+.input {
+  margin: 30px;
+  padding: 10px;
+}
+
+/* PERSONA BUSCADA */
+.contents {
+  margin: 15px;
+  background-color: gray;
+  border-radius: 15px;
+  width: 330px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 22px;
+}
+.foto {
+  padding: 10px;
+  width: 130px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1330px) {
+  .b, .d, .t {
+    font-size: 180px;
+  }
+  .d {
+    margin-left: 180px;
+  }
+  .t {
+    margin-left: 270px;
+  }
+  .bb, .dd, .tt {
+    margin-left: 10px;
+    font-size: 150px;
+  }
+  .dd {
+    margin-left: 75px;
+  }
+  .tt {
+    margin-left: 150px;
+  }
+  ul {
+    margin-left: 350px;
+    margin-top: 70px;
+    font-size: 25px;
+  }
+
+  .botones {
+    margin-left: 10%;
+    margin-top: 250px;
+  }
+  .cir {
+    width: 300px;
+    height: 300px;
+  }
+  .mor {
+    bottom: 0px;
+    right: 200px;
+    width: 150px;
+    height: 150px;
+  }
+  form {
+    margin-left: 10px;
+    width: 550px;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .cir {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .titulo {
+    margin-top: 30px;
+  }
+  .b, .d, .t {
+    margin-top: -20px;
+  }
+  .b {
+    margin-left: 30px;
+  }
+  .d {
+    margin-left: 110px;
+  }
+  .t {
+    margin-left: 200px;
+  }
+  .bb, .dd, .tt {
+    margin-left: 10px;
+    font-size: 150px;
+  }
+  .dd {
+    margin-left: 75px;
+  }
+  .tt {
+    margin-left: 150px;
+  }
+  ul {
+    margin-left: 30px;
+    margin-top: 190px;
+  }
+  .botones {
+    margin-top: 320px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .btn {
+    width: 100px;
+  }
+  .volver {
+    right: 4px;
+  }
+  .container {
+    width: 180px;
+    height: 180px;
+  }
+  .circulo {
+    width: 260px;
+    height: 260px;
+  }
+  .mordida {
+    width: 130px;
+    height: 130px;
+    right: 190px;
+  }
+  p {
+    font-size: 12px;
+    padding: 1px;
+    margin-top: 2px;
+    margin-left: -10px;
+  }
+  form {
+    margin-left: 0;
+    width: 300px;
+  }
+  input, textarea{
+    font-size: 12px;
+    border-radius: 10px;
+  }
+}
